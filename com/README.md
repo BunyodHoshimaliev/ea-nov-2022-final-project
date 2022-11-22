@@ -28,6 +28,14 @@ All container images must be pushed to docker hub repository using:
     ```sh
         docker push <IMAGE_TAG>
     ```
+   
+## Service Discovery
+
+- For the API-Gateway url:
+
+    ```sh
+        minikube service api-gateway --url
+    ```
 
 ## Service Discovery
 
